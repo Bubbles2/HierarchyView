@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/mythumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_marginRight="@dimen/default_spacing"
+        android:contentDescription="@null"
+        android:src="@drawable/folder" />
+
+    <View
+        android:id="@+id/sepline"
+        android:layout_width="3dp"
+        android:layout_height="fill_parent"
+        android:background="#FF0000FF"
+         android:layout_centerVertical="true"
+         />
+
+    <TextView
+        android:id="@+id/txtresource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Large Text"
+        android:layout_centerVertical="true"
+         />
+
+
+
+
+</LinearLayout>
